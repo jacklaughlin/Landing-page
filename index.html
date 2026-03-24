@@ -1,9 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jack Laughlin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Laughlin — Business Analytics &amp; Aspiring Attorney</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" aria-label="Introduction">
+      <img src="images/headshot.jpg" alt="Jack Laughlin professional headshot" class="hero-photo" width="160" height="160">
+      <h1>Jack Laughlin</h1>
+      <p class="tagline">Business Analytics Student&nbsp;|&nbsp;Data-Driven Problem Solver&nbsp;|&nbsp;Aspiring Law Student</p>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>I am a Business Analytics student at the University of Iowa (anticipated graduation May 2027) with a 3.80 GPA. I am also a student-athlete on the University of Iowa Football Team, where I have learned how to balance high-level commitment with academic performance.</p>
+        <p>My focus is on turning raw data into clear, actionable insights — whether through Python scripting, SQL queries, or Excel-based analysis. I am building toward a career in data analytics in the near term, with a longer-term goal of attending law school and practicing as an attorney.</p>
+        <p>I am actively seeking data analyst internship opportunities and am open to connecting with law school admissions representatives.</p>
+      </div>
+    </section>
+
+    <section id="skills" aria-label="Technical Skills">
+      <h2>Skills</h2>
+      <div class="skill-group">
+        <p class="skill-group-label">Programming</p>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-label">Tools</p>
+        <div class="skill-tags">
+          <span class="tag">Excel</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <p class="skill-group-label">Analytics</p>
+        <div class="skill-tags">
+          <span class="tag">Data Visualization</span>
+          <span class="tag">Regression</span>
+          <span class="tag">Descriptive Statistics</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>MLB Umpire Bias Analysis</h3>
+            <p>Identified patterns and potential biases in umpire strike zone calls using a full season of pitch-level data. Analyzed call accuracy across umpires to surface systemic inconsistencies.</p>
+            <p class="project-meta">Tool: Excel &nbsp;&bull;&nbsp; May 2025</p>
+          </article>
+          <article class="project-card">
+            <h3>Movie Success Analysis</h3>
+            <p>Scraped and analyzed data to identify the key factors driving box office performance. Examined variables including genre, budget, release timing, and cast to build a predictive profile.</p>
+            <p class="project-meta">Tool: Python &nbsp;&bull;&nbsp; November 2025</p>
+          </article>
+          <article class="project-card">
+            <h3>Corn Irrigation Optimization</h3>
+            <p>Optimized irrigation scheduling for local farms using simulation modeling. Balanced water usage against crop yield outcomes to recommend more efficient irrigation strategies.</p>
+            <p class="project-meta">Tool: Simulation &nbsp;&bull;&nbsp; November 2025</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" aria-label="Leadership and Experience">
+      <h2>Leadership &amp; Experience</h2>
+      <div class="experience-item">
+        <h3>University of Iowa Football Team</h3>
+        <p class="experience-meta">Iowa City, IA &nbsp;&bull;&nbsp; June 2023 – Present</p>
+        <ul>
+          <li>Academic Medallion recipient for academic excellence within the NCAA</li>
+          <li>Special Teams Team Leader Award winner</li>
+          <li>Academic All-Big Ten (all three years)</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Volunteer Involvement</h3>
+        <p class="experience-meta">Annual, Summers</p>
+        <ul>
+          <li>Volunteered alongside teammates at animal shelters, cleaning spaces and caring for animals</li>
+          <li>Supported food bank operations and helped improve workflow efficiency</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Lawncare Assistant — Lucas Lawncare</h3>
+        <p class="experience-meta">Carlisle, IA &nbsp;&bull;&nbsp; May 2021 – July 2023</p>
+        <ul>
+          <li>Managed a client portfolio of 50+ lawns within a two-person team</li>
+          <li>Handled client acquisition, scheduling, and day-to-day service delivery</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <nav class="contact-links" aria-label="Contact links">
+        <a href="mailto:jack-laughlin@uiowa.edu" class="contact-link" target="_blank" rel="noopener noreferrer">Email Jack</a>
+        <a href="https://www.linkedin.com/in/jack-laughlin-200913332/" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        <a href="https://github.com/jacklaughlin" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+      </nav>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Jack Laughlin. University of Iowa &mdash; Business Analytics.</p>
+  </footer>
+
 </body>
 </html>
